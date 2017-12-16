@@ -36,9 +36,9 @@ function init() {
         objLoader.setPath( 'goalmodel/' );
         objLoader.load( 'blendertest.obj', function ( object ) {
             object.rotation.x = -20* 180;
-            object.scale.x = 20;
-            object.scale.y = 20;
-            object.scale.z = 20;
+            object.scale.x = 30;
+            object.scale.y = 30;
+            object.scale.z = 30;
             object.position.y = - 50;
             scene.add( object );
         }, onProgress, onError );
